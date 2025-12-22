@@ -11,7 +11,7 @@ http://dsd.cs.brown.edu/
 1. We provide [code](#code) to synthesize handwriting (bottom) in a target style (top) via learned spaces of style and content,
 and can exploit any available reference samples (middle) to improve output quality.
 
-2. We provide the [BRUSH dataset](#brush-dataset) of 27,649 online handwriting samples over 170 writers in vector format.
+2. We provide the [BRUSH dataset](#brush-dataset) of 27,649 online handwriting samples over 170 writers in vector format. This is refined from that used in our paper.
 
 # Demo
 
@@ -64,9 +64,9 @@ Result:
 # Preparation (Before you run the code)
 
 In the root of a project directory of your choice, create `./model`, `./data`, and `./results` subdirectories.
-Then, download our pretrained model from [here](https://drive.google.com/file/d/1LlRHdm4GV9rfuVZazgx6HtnQg6x7mezR/view?usp=sharing) and save it under the `./model` directory.
+[2025-12-22 Not currently available.] Then, download our pretrained model from [here](https://drive.google.com/file/d/1LlRHdm4GV9rfuVZazgx6HtnQg6x7mezR/view?usp=sharing) and save it under the `./model` directory.
 
-Further, please download the dataset from [here](https://drive.google.com/file/d/1pfUKaYkFu8HpX4f5rlg0spgTk2wwbKzP/view?usp=sharing) and decompress the zip file into the `./data` directory. The folder should be located as `'./data/writers'`.
+Further, please download the (original, unrefined) dataset from [here](https://drive.google.com/file/d/1pfUKaYkFu8HpX4f5rlg0spgTk2wwbKzP/view?usp=sharing) and decompress the zip file into the `./data` directory. The folder should be located as `'./data/writers'`.
 
 Finally, please install dependencies with your python virtual environment:
 
