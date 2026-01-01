@@ -63,8 +63,10 @@ Result:
 
 # Preparation (Before you run the code)
 
+
+
 In the root of a project directory of your choice, create `./model`, `./data`, and `./results` subdirectories.
-[2025-12-22 Not currently available.] Then, download our pretrained model from [here](https://drive.google.com/file/d/1LlRHdm4GV9rfuVZazgx6HtnQg6x7mezR/view?usp=sharing) and save it under the `./model` directory.
+[2025-12-22 Not currently available.] Then, download our pretrained model from [here](https://drive.google.com/file/d/1PoRwGfk9S8b6cYAj_o_035lhEgkr23C-/view?usp=sharing) and save it under the `./model` directory.
 
 Further, please download the (original, unrefined) dataset from [here](https://drive.google.com/file/d/1pfUKaYkFu8HpX4f5rlg0spgTk2wwbKzP/view?usp=sharing) and decompress the zip file into the `./data` directory. The folder should be located as `'./data/writers'`.
 
