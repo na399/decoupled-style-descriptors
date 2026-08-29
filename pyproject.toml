@@ -1,0 +1,26 @@
+[project]
+name = "decoupled-style-descriptors"
+version = "0.0.0"
+description = "Research fork of Generating Handwriting via Decoupled Style Descriptors"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "ffmpeg-python==0.2.0",
+  "gradio==6.25.0",
+  "numpy==2.5.2",
+  "pillow==12.3.0",
+  "scipy==1.18.1",
+  "svgwrite==1.4.3",
+  "tensorboardX==2.6.5",
+  "torch==2.13.0",
+]
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
